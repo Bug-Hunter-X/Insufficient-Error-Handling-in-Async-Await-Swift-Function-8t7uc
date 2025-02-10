@@ -1,0 +1,3 @@
+# Insufficient Error Handling in Async/Await Swift Function
+This repository demonstrates a common error in Swift's async/await feature: insufficient error handling. The `fetchData` function lacks robust error handling, potentially leading to unexpected app behavior or crashes.
+The `bug.swift` file contains the problematic code, while `bugSolution.swift` shows improved error handling with more specific error types and detailed error messages.  This improved handling helps developers diagnose issues quickly and provides better user feedback.
